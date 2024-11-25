@@ -12,8 +12,9 @@ Uma aplicação web que permite buscar informações sobre Pokémon usando a Pok
 - **PokeAPI**
 ## 🛠️ Como Usar
 1. Clone este repositório:
-`` bash
+``` bash
 git clone https://github.com/seu-usuario/pokedex.git
+```
 2. Abra o arquivo index.html em qualquer navegador moderno.
 Use o campo de busca para pesquisar pelo nome ou ID de um Pokémon.
 Navegue entre os Pokémon usando os botões de "Próximo" e "Anterior".
