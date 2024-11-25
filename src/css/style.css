@@ -54,7 +54,7 @@ main {
     right: 0%;
     font-weight: 600;
     color: #504f4f;
-    font-size: clamp(11px, 3vw, 15px);
+    font-size: clamp(7px, 3vw, 15px);
     text-transform: capitalize;
 }
 
