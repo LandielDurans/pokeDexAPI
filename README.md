@@ -13,7 +13,7 @@ Uma aplicação web que permite buscar informações sobre Pokémon usando a Pok
 ## 🛠️ Como Usar
 1. Clone este repositório:
 ``` bash
-git clone https://github.com/seu-usuario/pokedex.git
+https://github.com/LandielDurans/pokeDexAPI.git
 ```
 2. Abra o arquivo index.html em qualquer navegador moderno.
 Use o campo de busca para pesquisar pelo nome ou ID de um Pokémon.
