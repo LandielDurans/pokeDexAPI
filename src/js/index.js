@@ -25,6 +25,7 @@ const renderPokemon = async (pokemon) => {
     const data = await fetchAPI(pokemon)
     if (data) {
         pokemon_image.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default']
+        pokemon_image.style.display = 'block'
         pokemon_name.innerHTML = data.name
         pokemon_number.innerHTML = data.id
         pokemon_ability.innerHTML = data['abilities']['0']['ability']['name']
@@ -32,6 +33,8 @@ const renderPokemon = async (pokemon) => {
         pokemonCounter = data.id
     } else {
         pokemon_name.innerHTML = 'Não encontrado :c'
+        pokemon_image.style.display = 'none'
+        pokemon_ability.innerHTML = ''
         pokemon_number.innerHTML = ''
     }
 }
