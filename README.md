@@ -6,10 +6,10 @@ Uma aplicação web que permite buscar informações sobre Pokémon usando a Pok
 - Visualizar o nome, número, habilidade principal e animação do Pokémon.
 - Navegar entre os Pokémon com botões de "Próximo" e "Anterior".
 ## 🚀 Tecnologias Utilizadas
-** HTML **
-** CSS **
-** JavaScript **
-**PokeAPI **
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **PokeAPI**
 ## 🛠️ Como Usar
 1. Clone este repositório:
 `` bash
