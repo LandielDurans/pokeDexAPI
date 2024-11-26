@@ -18,8 +18,3 @@ https://github.com/LandielDurans/pokeDexAPI.git
 2. Abra o arquivo index.html em qualquer navegador moderno.
 3. Use o campo de busca para pesquisar pelo nome ou ID de um Pokémon.
 4. Navegue entre os Pokémon usando os botões de "Próximo" e "Anterior".
-
-# ⚙️ Estrutura do Código
-## Funções Principais
-- fetchAPI(pokemon): Faz a requisição à PokeAPI para obter os dados do Pokémon.
-- renderPokemon(pokemon): Renderiza os dados do Pokémon na interface, como nome, número, habilidade e imagem.
