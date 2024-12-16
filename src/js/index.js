@@ -24,7 +24,7 @@ const fetchAPI = async (pokemon) => {
 const renderPokemon = async (pokemon) => {
     const data = await fetchAPI(pokemon)
     if (data) {
-        pokemon_image.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default']
+        pokemon_image.src = data.sprites?.versions?.['generation-v']?.['black-white']?.animated?.front_default || data.sprites?.front_default
         pokemon_image.style.display = 'block'
         pokemon_name.innerHTML = data.name
         pokemon_number.innerHTML = data.id
