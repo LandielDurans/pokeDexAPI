@@ -15,6 +15,6 @@ Uma aplicação web que permite buscar informações sobre Pokémon usando a Pok
 ``` bash
 https://github.com/LandielDurans/pokeDexAPI.git
 ```
-2. Abra o arquivo index.html em qualquer navegador moderno.
+2. Abra o arquivo index.html em qualquer navegador.
 3. Use o campo de busca para pesquisar pelo nome ou ID de um Pokémon.
 4. Navegue entre os Pokémon usando os botões de "Próximo" e "Anterior".
